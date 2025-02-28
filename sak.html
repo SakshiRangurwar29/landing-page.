@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>landimg page</title>
+</head>
+<link rel="stylesheet" href="sak.css">
+<style>
+    body{
+        background: url(https://wallpapers.com/images/hd/hikers-in-delphi-vwa6cz4q69qagtxo.jpg);
+        
+        height: 1000px;
+       
+        
+    }
+    .left{
+        border: 2px;
+        display:inline-block;
+        top: 22px;
+        left: 34px;
+        position: absolute;
+    }
+    .left img{
+        width:80px;
+    }
+    .mid{
+        display:block;
+        width: 50%;
+        margin: 25px auto;  
+        font-size: larger;
+    }
+    .right{
+        position: absolute;
+       
+        display: inline-block;
+        right: 34px;
+        top: 22px;
+    }
+    .btn{
+        border: 2px solid black;
+        width: 1px;
+        padding: 2px 2px;
+        background-color: rgb(174, 194, 184);
+    }
+    .btn:hover{
+        background-color:rgb(41, 134, 180)
+    } 
+    .navbar{
+        display: inline-block;
+    }
+    .navbar li{
+        display: inline-block;
+        font-size: 18px;
+        font-family: 'Courier New', Courier, monospace;
+        border: 2px solid gray;
+        border-radius: 13px;
+        background-color: slategrey;
+    }
+    .navbar li a{
+        color: rgb(3, 12, 19);
+        text-decoration: none;
+        padding: 54px 34px;
+    }
+    .navbar li a:hover,.navbar li a:active{
+        text-decoration: underline;
+        color: rgb(215, 203, 203);
+    }
+    .container{
+        border: 2px solid black;
+        padding:25px 50px;
+        margin: 80px 80px;
+        width: 20%;
+        border-radius: 20px;
+        font-size: larger;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .containerbtn{
+        display:block;
+        width: 23%;
+        margin:auto;
+        padding: 13px 13px;text-align: center;
+    }
+    .form-group input{
+        text-align: center;
+        display: block;
+        width:244px;
+        padding:6px;
+        margin:3px auto;
+        border: 3px solid black;
+        border-radius: 14px;
+
+    }
+    .details{
+        background-color: blanchedalmond;
+        height: 155px;
+        text-align: center;
+        font-size: 13px;
+    }
+    .H1{
+        color: white;
+    }
+    img{
+        width: 80px;
+        margin:auto;
+        display: block;
+    }
+    .submit{
+        left:34px;
+        width: 3%;
+        height: 23px;
+        background-color: rgb(154, 199, 87);
+    }
+    .chart{
+        background-color:rgb(163, 189, 204);
+        border: 2px solid black;
+        border-radius: 14px;
+        padding:23 23px;
+        margin:3px;
+        width: 24%;
+        display:inline-block;
+    }
+    .li{
+        font-size: 20px;
+    }
+    
+</style>
+<body>
+    <header class="travalling">
+        <!--left box for logo-->
+       <div class="left">
+         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6IVHz7ZWzY95ad-p8mIu8GbONEca7Tnnt2A&s">
+        </div>     
+       <!--mid  box for navbar-->       
+       <div class="mid">
+         <ul class="navbar">
+             <li><a href="#"class="active">home</a></li>
+             <li><a href="#"class="active">about as </a></li>
+             <li><a href="#"class="active">contact</a></li>
+             <li><a href="#"class="active">travelling center</a></li>
+         </ul>
+       </div>    
+       <!--right box for botton-->     
+       <div class="right">
+       <botton class="btn">details about of travelling agencies</botton>    
+       </div>
+    </header>
+    <div class="container">
+        <H2>TO JOIN OUR TRAKKING JORNEY</H2>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text"name=""placeholder="enter your name">
+            </div>
+            <div class="form-group">
+                <input type="text"name=""placeholder="enter your adresss">
+            </div>
+            <div class="form-group">
+                <input type="text"name=""placeholder="enter your contact NO.">
+            </div>
+            <div class="form-group">
+                <input type="age"name=""placeholder="enter your AGE">
+            </div><br>
+            <botton class="btn">submit</botton>
+        </form>
+    </div>
+    <div class="details">
+        <h2>payment</h2>        
+    <div class="box">
+        <img src="https://static.vecteezy.com/system/resources/previews/011/026/519/non_2x/scan-me-phone-tag-qrcode-scan-to-pay-with-mobile-app-qr-code-for-smartphone-isolated-illustration-on-a-white-background-illustration-vector.jpg" alt="">
+    <button class="submit" value="pay"> pay</button>  
+    </div>
+    
+    </div><br><br><br>
+    <div class="chart">
+        <h2>OFFER</h2>
+    <ul>
+        <li>female=50%</li>
+        <li>male=20%</li>
+    </ul>   
+    <p>exclusive 50% off for our female and 20% off for our male to join our this journy and make memories with new people fill the above form and being a part of this</p>
+    </div>
+    <div class="chart">
+        <H2>WILD LIFE TREKKING</H2>
+        <ul>
+            <li>Kalsubai</li>
+            <li>Ratangad</li>
+        </ul>   
+        <p>in this trekking we are going to explox maharastra's most famous trek kalsubai and ratangad </p>
+        </div> <div class="chart">
+            <h2>AGE LIMIT</h2>
+            <ul>
+                <li>UNDER 20 IS NOT ALLOW</li> 
+                <LI>ABOVE 50 IS NOT ALLOW</LI>             
+            </ul>   
+            <P>There have age limit in our trkking to maintain the safaty of people child are not allow to join our trip</P>
+            </div>
+            </div> <div class="chart">
+                <h2>REVIEW</h2>
+                <ul>
+                    <li>the best traveling trip</li>
+                    <li>very comfutable jurney</li>
+                    <li>provide best facelities</li>
+                    <li>food is awesome</li>
+                    <li>best trekking experiece</li>
+                </ul>   
+            </div>  
+</body>
+</html>
